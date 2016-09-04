@@ -56,7 +56,12 @@
   /* Implement columns for larger screens here here */
  
  .col-3 {
-    width: 25%;
+    width: 33.333333%;
+    margin-bottom: 20px;
+  }
+
+  .col-12 {
+    width: 100%;
   }
   
 }

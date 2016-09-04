@@ -1,27 +1,41 @@
-header {
-
+body {
+  font-family: "Roboto", sans-serif;
+  color: #252525;
 }
 
-main {
+header {
+	background-color: #EDBA45;
+	margin-bottom: 40px;
+}
 
+.page-title {
+	line-height: 1;
+	margin-bottom: 0;
+}
+
+.page-descr {
+	margin-top: 0.5em;
 }
 
 .card {
-
+	border: 1px solid lightgrey;
 }
 
 .card img {
+	width: 100%;
+	border-bottom: 1px solid lightgrey;
+}
 
+.card ul{
+	list-style: none;
+	list-style-type: none;
 }
 
 .card-footer {
-background-color: white;
+	padding: 10px;
 }
 
 .card-title {
-font-weight: bold;
-}
-
-.card-descr {
-
+	font-weight: bold;
+	padding-bottom: 10px;
 }
